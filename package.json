@@ -1,0 +1,21 @@
+{
+  "name": "hao-vnet-ui",
+  "version": "1.0.0",
+  "description": "新建属于自己的组件库",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "cli",
+    "docs",
+    "example"
+  ]
+}
